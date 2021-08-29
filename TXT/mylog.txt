@@ -1,7 +1,7 @@
 # LOG FORMAT:
 # ZCZC WEEK MINUTES LOGCODE DESC
-ZCZC W00 05 L03 Github related      # Making this repository
-ZCZC W00 120 L26 C-language         # Configuring my suckless tools for this semester (dwm, dmenu, st, tabbed)
-ZCZC W00 120 L25 Scripting          # Tweaking my dotfiles installer script (tiny.one/sidost)
-ZCZC W00 120 L86 House chore        # Cleaning my room for college works tommorow
-
+ZCZC W00 05 L03 Github related          # Making this repository
+ZCZC W00 120 L26 C-language             # Configuring my suckless tools for this semester (dwm, dmenu, st, tabbed)
+ZCZC W00 120 L25 Scripting              # Tweaking my dotfiles installer script (tiny.one/sidost)
+ZCZC W00 120 L86 House chore            # Cleaning my room for college works tommorow
+ZCZC W00 05 L04 GitHub Pages related    # Setting up github page for os212
