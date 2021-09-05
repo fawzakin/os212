@@ -7,4 +7,4 @@ See you there!
 **NOTE:** The default branch for this repository is, and will always be, "main". I have no plan to create any other branch. 
 
 # License and Credit
-GNU GPL v3.
+GNU GPL v3. Most of the page layout is taken from cbkadal's [page](http://cbkadal.github.io/os212).
