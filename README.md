@@ -1,5 +1,10 @@
 # Operating System Class
-My work repository for Operating System class. I'm not sure what I should do here but making this repo is the first assignment I have to do. See you soon!
+My work repository for Operating System class. See it here:  
+https://fawzakin.github.io/os212/
+
+See you there!
+
+**NOTE:** The default branch for this repository is, and will always be, "main". I have no plan to create any other branch. 
 
 # License and Credit
-MIT License
+GNU GPL v3.
