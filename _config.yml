@@ -6,13 +6,12 @@ description: >-
 author:           "Fawzan Fawzi"
 address:          "NONE"
 sitemap:          "true"
-#plugins:
-  #- jekyll-sitemap
-  #- jekyll-seo-tag
+plugins:
+  - jekyll-sitemap
 urlweb:           "https://fawzakin.github.io/os212/"
 urlcontact:       "NONE"
 urlgithub:        "https://github.com/fawzakin/os212/"
 urlghpage:        "https://fawzakin.github.io/os212/"
-keywords:         "os, testing"
+keywords:         "jekyll, os, testing"
 github:           
   - metadata
