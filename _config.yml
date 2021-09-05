@@ -1,19 +1,18 @@
 title:       "Operating Systems 2021-2 (OS212)"
-version:     "WIP"
+version:     "Rolling"
 copyright:   "2021-2021"
 description: >- 
-  I don't know what should I do here?
-#google_analytics: "UA-89852122-13"
+  Operating System class is based
 author:           "Fawzan Fawzi"
-address:          "What"
-sitemap:          "false"
-plugins:
-  - jekyll-sitemap
-  - jekyll-seo-tag
+address:          "NONE"
+sitemap:          "true"
+#plugins:
+  #- jekyll-sitemap
+  #- jekyll-seo-tag
 urlweb:           "https://fawzakin.github.io/os212/"
 urlcontact:       "NONE"
 urlgithub:        "https://github.com/fawzakin/os212/"
 urlghpage:        "https://fawzakin.github.io/os212/"
-keywords:         "jekyll, testing"
+keywords:         "os, testing"
 github:           
   - metadata
