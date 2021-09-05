@@ -40,8 +40,8 @@
 .column {
   float:            left;
   display:          inline-block;
-  background:       #808080;
-  height:           130px;
+  background:       #262626;
+  height:           80px;
   width:            100%;
   padding-top:      10px;
   padding-bottom:   10px;
@@ -54,7 +54,7 @@
   width:            130px;
 }
 
-.right1 {
+.right {
   height:           80px;
   width:            calc(100% - 200px);
   padding-top:      5px;
@@ -62,17 +62,6 @@
   padding-left:     30px;
   font-size:        1.4em;
   font-weight:      bold;
-}
-
-.right2 {
-  height:           50px;
-  width:            calc(100% - 200px);
-  padding-top:      5px;
-  padding-bottom:   5px;
-  padding-left:     30px;
-  font-size:        1.1em;
-  font-weight:      bold;
-}
 }
 
 .youtube {
