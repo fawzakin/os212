@@ -1,5 +1,5 @@
 ---
-layout: "normal"
+layout: "layout"
 permalink: /links/
 ---
 
