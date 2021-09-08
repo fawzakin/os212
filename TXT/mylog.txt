@@ -8,4 +8,7 @@ ZCZC W00 05 L04 Setting up github page for os212
 ZCZC W00 50 L31 Installing Arch on VM to test my deploy scripts
 ZCZC W00 60 L87 Doodling my OCs
 ZCZC W00 120 L73 Playing Celeste and Banjo-Kazooie
+ZCZC W01 60 L24 Making script for DistroTube's dmscript (go to 'gitlab.com/dwt1/dmscripts' and see 'dm-note')
+ZCZC W01 60 L11 Creating Debian VM from scratch
+ZCZC W01 120 L73 I am so obsessed with this bear and bird friendship game
 

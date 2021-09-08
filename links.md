@@ -26,4 +26,10 @@ My dotfiles repository. Configurations for many linux programs that I use. Requi
 My build of dwm (my main desktop/window manager). Now with the bar inspired from siduck76's [chadwm](https://github.com/siduck76/chadwm).
 
 [dmscripts](https://gitlab.com/fawzakin/dmscripts)  
-A collection of dmenu scripts that I have found useful in my day-to-day activities as a desktop Linux user. Forked from Derek "[DistroTube](https://www.youtube.com/c/DistroTube)" Taylor's [dmscripts](https://gitlab.com/dwt1/dmscripts) which I contribute to (I'm planing to add my own scripts for the upstream).
+A collection of dmenu scripts that I have found useful in my day-to-day activities as a desktop Linux user. Forked from Derek "[DistroTube](https://www.youtube.com/c/DistroTube)" Taylor's [dmscripts](https://gitlab.com/dwt1/dmscripts) which I contribute to. 
+
+Here are the scripts I made for it:
+- dm-note (available in the upstream)
+- dm-command (coming soon)
+- dm-pass (fork exclusive)
+
