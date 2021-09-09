@@ -1,6 +1,6 @@
 ---
 layout: "layout"
-permalink: /links/
+permalink: /LINKS/
 ---
 
 # My Links

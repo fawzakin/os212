@@ -1,6 +1,6 @@
 ---
 layout: "layout"
-permalink: /tips/
+permalink: /TIPS/
 ---
 # Fawzan's useful tips for Operating System Class
 Note that this page assumes that you are using Linux (Ubuntu, Arch, or any distro really) as your main OS. Some of the tips here may be able to help you regardless if you are on Windows or MacOS.
