@@ -2,9 +2,14 @@
 layout: "layout"
 permalink: /tips/
 ---
-
 # Fawzan's useful tips for Operating System Class
-### Cannot generate Github page locally
+Note that this page assumes that you are using Linux (Ubuntu, Arch, or any distro really) as your main OS. Some of the tips here may be able to help you regardless if you are on Windows or MacOS.
+
+Table of Content (use ctrl+f to search them):
+- [1] Cannot generate Github page locally
+- [2] NEVER use EFI for your debian VM
+ 
+### [1] Cannot generate Github page locally
 If you encounter this kind of error when generating your github page locally like this:
 ```
 Configuration file: /drive/Data/git/os212/_config.yml
@@ -61,3 +66,11 @@ Steps to fix it in Linux using `rbenv`:
 gem install github-pages jekyll jekyll-sitemap jekyll-seo-tag
 ```
 Now go back to your repo and run `bundle exec jekyll serve` again
+
+### [2] NEVER use EFI for your debian VM
+If you export your debian VM with EFI enabled and import it as separate guest, it may **NOT BOOT** even if you change the disk or use an ISO. I honestly have no idea why this happens but [this askubuntu page](https://askubuntu.com/questions/454557/virtualbox-virtual-machines-wont-boot-after-cloning) may give some clue. 
+
+If you like using EFI, QEMU + Virt-Manager is a better option although this OS class mandates you to use VirtualBox. So, don't enable EFI in VirtualBox for your time and sanity.
+
+![just don't please](https://fawzakin.github.io/os212/assets/images/no-efi.png)
+
