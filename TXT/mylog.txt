@@ -12,3 +12,4 @@ ZCZC W01 60 L24 Making script for DistroTube's dmscript (go to 'gitlab.com/dwt1/
 ZCZC W01 60 L11 Creating Debian VM from scratch
 ZCZC W01 120 L73 I am so obsessed with this bear and bird friendship game
 ZCZC W01 10 L03 Successfully creating ssh keys for github
+ZCZC W01 50 L04 Added more tips

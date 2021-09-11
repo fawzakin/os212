@@ -95,11 +95,17 @@
 }
 
 pre {
-  border:        3px solid rgba(255, 255, 255, 0.15);
-  padding:       10px; 
-  color:         #b5e853;
-  font-size:     0.7em; 
-  border-radius: 2px;
+  /*border:        3px solid rgba(255, 255, 255, 0.15);*/
+  /*border-radius: 2px;*/
+  padding:       0px; 
+  color:         #73d216;
+  background-color: #1a1a1a;
+  font-size:     1em; 
+}
+
+code {
+  color:            #d7d7d7;
+  background-color: #1a1a1a;  
 }
 
 /*
