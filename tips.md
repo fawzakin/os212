@@ -15,7 +15,7 @@ Table of Content (click on them or use ctrl+f to search them):
 - [NEVER use EFI for your Debian VM](#no-efi)
  
 ## Cannot generate Github page locally <a name="gen-ghp"></a>
-If you get "no implicit conversion of Hash into Integer" error when generating your github page locally ([full log](https://fawzakin.github.io/os212/LOG/ghp-log.txt)), it means you have ruby version 3.0.0. Jekyll, as the writing of this tip, doesn't support such version. You should install the version 2.7.3.
+If you get "no implicit conversion of Hash into Integer" error when generating your github page locally ([full log](https://fawzakin.github.io/os212/LOG/ghp-error.txt)), it means you have ruby version 3.0.0. Jekyll, as the writing of this tip, doesn't support such version. You should install the version 2.7.3.
 
 Steps to fix it in Linux using `rbenv`:
 1. Install `rbenv` and `ruby-build` (I'm using Arch so I follow what this [page](https://wiki.archlinux.org/title/rbenv) says)
