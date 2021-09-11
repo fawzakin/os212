@@ -91,6 +91,7 @@ Sometimes, you may forgot to add the second drive for your LFS partition as it i
     Step 2
 </p>
 
+{:start="3"}
 3. Choose the name and the size you want for your disk. You should always set the storage type to "Dynamically allocated" so the drive won't use all the space you set after creation. IMO, 64 GB for a Linux VM is a tad superfluous. I usually set my Linux VM to use 30 GB of storage. Set the size "according to your own belief and faith"
 4. Choose the created drive in the "not attached" group
 5. Run your Debian VM and login as root
@@ -112,6 +113,7 @@ blkid | awk '/dev/\sdb/{print $2}' >> /etc/fstab
     Step 7 through 9
 </p>
 
+{:start="10"}
 10. We need to edit `/etc/fstab` so that the added drive can be mounted on startup. Just nano or vim into it and follow everything you see in the last line of the following image. Save your edit and reboot. You should have the added drive mounted on startup
 <p align=center>
     <img src="https://raw.githubusercontent.com/fawzakin/screenpaper/main/Screenshots/add-disk-fstab.png"> <br>
