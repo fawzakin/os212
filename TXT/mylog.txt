@@ -13,3 +13,19 @@ ZCZC W01 60 L11 Creating Debian VM from scratch
 ZCZC W01 120 L73 I am so obsessed with this bear and bird friendship game
 ZCZC W01 10 L03 Successfully creating ssh keys for github
 ZCZC W01 50 L04 Added more tips
+ZCZC W02 60 L04 Added tips about enjoying OS class
+ZCZC W02 05 L87 Realizing that I've wrote the assignment logs wrong for the last two weeks 
+ZCZC W02 60 L11 -|Asg W02 begin|- Read OSC10 chap 16 + 17
+ZCZC W02 25 L12 Demo fun
+ZCZC W02 60 L13 Watched lectures about digital security
+ZCZC W02 05 L14 Generated GPG key pair 
+ZCZC W02 05 L15 Listed all GPG keys
+ZCZC W02 05 L16 Imported ospubkey.txt
+ZCZC W02 05 L17 Signed the OS public key
+ZCZC W02 05 L18 Exported my public key
+ZCZC W02 05 L19 Updated my links (Matcha Wallpapers)
+ZCZC W02 05 L20 Reviewed my peer links (very amusing)
+ZCZC W02 05 L09 Copied myscript.sh
+ZCZC W02 30 L09 -|Asg W02 end|- Updated this log and generated SHA256SUM
+ZCZC W02 120 L23 Installing Arch Linux on my brand new Lenovo Yoga Slim 7 14ARE05
+ZCZC W02 120 L73 Finishing Banjo-Kazooie. I love that sassy red bird
