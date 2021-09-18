@@ -7,27 +7,38 @@ Note that this page assumes that you are using Linux (Ubuntu, Arch, or any distr
 
 If you want to request some tips or find any mistakes in this page, please contact me through Discord (Dekano#6884) or LINE if you happen to know my id.
 
-Table of Content (click on them or use ctrl+f to search them):
-- [Cannot generate Github page locally](#gen-ghp)
+### Table of Content (click on them or use ctrl+f to search them):
+General tips:
+- [How to enjoy Operating System class](#enjoy-os)
 - [The best way to learn vim](#learn-vim)
+
+Technical help:
+- [Cannot generate Github page locally](#gen-ghp)
 - [Change your username and hostname in your Debian VM](#change-name)
 - [Add new disk to your Debian VM](#add-disk)
 - [NEVER use EFI for your Debian VM](#no-efi)
- 
-## Cannot generate Github page locally <a name="gen-ghp"></a>
-If you get "no implicit conversion of Hash into Integer" error when generating your github page locally ([full log](https://fawzakin.github.io/os212/LOG/ghp-error.txt)), it means you have ruby version 3.0.0. Jekyll, as the writing of this tip, doesn't support such version. You should install the version 2.7.3.
 
-Steps to fix it in Linux using `rbenv`:
-1. Install `rbenv` and `ruby-build` (I'm using Arch so I follow what this [page](https://wiki.archlinux.org/title/rbenv) says)
-2. Run `rbenv init` and do what it says
-3. Run `rbenv install 2.7.3` , wait for it to install, run `rbenv global 2.7.3` to change your ruby version globally
-4. Set the [environment variables](https://wiki.archlinux.org/title/Environment_variables#Per_user) for `GEM_HOME` and `GEM_PATH` as the output of `ruby -e 'puts Gem.user_dir'` (apostrophe included) or just don't set them/leave them empty (I'm not really sure about the latter)
-5. Reload your shell or terminal and run `ruby -v` . You should run the version 2.7.3. 
-6. Reinstall all the tools required for github page again
-```
-gem install github-pages jekyll jekyll-sitemap jekyll-seo-tag
-```
-Now go back to your repo and run `bundle exec jekyll serve` again.
+# General tips
+
+## How to enjoy Operating System class
+I find this class to be the most enjoyable class after Introduction to Digital System. However, I've seen someone who calls this class as a sadistic demon or more evil than Lord Dominator. Here's how I become good at this class (and Linux in general) to the point I helped the assistants answering your questions on Discord.
+
+One skill you need to develop, which is pretty much requirement for every single class in the CS major, is to learn how to google your problem. I thought this is a skill that everyone takes for granted but I guess spending a lot of times tinkering my jailbroken iPad taught me this skill nine years ago unknowingly. If you get an error or don't know how to do something, try to search the error code or "how to do X" in google.
+
+For example, I had problem getting my new laptop, Lenovo Yoga Slim 7, to hibernate properly when running under Linux. So, I searched "Lenovo Yoga Slim 7 hibernate Linux" and I found [this github thread](https://github.com/jrandiny/yoga-slim7-ubuntu) containing the solution for my problem (frankly, I had to use the older, LTS kernel in order for the provided method to work). If you can't find the solution anywhere on the internet or if it's very specific to this class like assignments, don't be afraid to ask on a forum or your friendly assistants.
+
+Also, if you want to learn how to use a command, run `man command` or `curl cheat.sh/command`. It gives you useful information on its usage.
+
+The best way to be good at Linux is, well, to switch to Linux as your main OS and learn how to live with it. No, i'm not saying you should install Gentoo right away. However, you should install a Linux distro in your VirtualBox, play around with it, and, after you are ready, install it to your existing computer.
+
+My go-to distro for beginners is [Pop OS](https://pop.system76.com/) (non-LTS version) for the following reasons:
+- It is extremely beginner friendly and looks super nice out-of-the-box. The installer should not intimidate you
+- The user interface (GNOME) is easier to learn than Windows 
+- Has more up-to-date driver support such as nvidia driver
+- Has Ubuntu as its base so any problem people solve in Ubuntu should work in Pop OS
+- It doesn't come with the evil program known as "snap package manager". You don't need to know what it is other than it is evil
+
+See this [video](https://www.youtube.com/watch?v=_Ua-d9OeUOg) on how to install Pop OS or this [video](https://www.youtube.com/watch?v=F6o6Vn5s0D8) on dual booting Windows 10 with Pop OS. It's very easy and you'll definitely enjoy it more than Windows or MacOS.
 
 ## The best way to learn vim <a name="learn-vim"></a>
 Do you want to use vim? That's wonderful to hear. Here's a simple way to learn its unique keybinding:
@@ -52,8 +63,26 @@ vimtutor is a program, a part of vim itself, that teaches you the basic usage of
     - Luke Smith ([vimtutor](https://www.youtube.com/watch?v=d8XtNXutVto), [Useful Tips](https://www.youtube.com/watch?v=bQfFvExpZDU))
     - [vi Complete Key Binding List by Havard University](https://hea-www.harvard.edu/~fine/Tech/vi.html)
 
+# Technical help
+
+## Cannot generate Github page locally <a name="gen-ghp"></a>
+If you get "no implicit conversion of Hash into Integer" error when generating your github page locally ([full log](https://fawzakin.github.io/os212/LOG/ghp-error.txt)), it means you have ruby version 3.0.0. Jekyll, as the writing of this tip, doesn't support such version. You should install the version 2.7.3.
+
+Steps to fix it in Linux using `rbenv`:
+1. Install `rbenv` and `ruby-build` (I'm using Arch so I follow what this [page](https://wiki.archlinux.org/title/rbenv) says)
+2. Run `rbenv init` and do what it says
+3. Run `rbenv install 2.7.3` , wait for it to install, run `rbenv global 2.7.3` to change your ruby version globally
+4. Set the [environment variables](https://wiki.archlinux.org/title/Environment_variables#Per_user) for `GEM_HOME` and `GEM_PATH` as the output of `ruby -e 'puts Gem.user_dir'` (apostrophe included) or just don't set them/leave them empty (I'm not really sure about the latter)
+5. Reload your shell or terminal and run `ruby -v` . You should run the version 2.7.3. 
+6. Reinstall all the tools required for github page again
+```
+gem install github-pages jekyll jekyll-sitemap jekyll-seo-tag
+```
+Now go back to your repo and run `bundle exec jekyll serve` again.
+
 ## Change your username and hostname in your Debian VM <a name="change-name"></a>
-If you are too lazy to install the Debian VM yourself, you ought to import the provided OVA file. In this case, you should rename the username and the hostname (NOT the name of the gues) to your Github username. Here are the steps:
+If you are too lazy to install the Debian VM yourself, you ought to import the provided OVA file. In this case, you should rename the username and the hostname (NOT the name of the guest) to your Github username. Here are the steps:
+
 1. Run your imported Debian VM and login as root
 2. Edit (nano or vim) `/etc/hostname` and change the hostname to your github username
 3. There are multiple ways to rename the current username (Substitute `yourname` with your Github username)
@@ -61,15 +90,14 @@ If you are too lazy to install the Debian VM yourself, you ought to import the p
  
     ```
     usermod -l yourname cbkadal                 # Rename the original username to your name
-    groupmod -n cbkadal yourname                # Rename its group of the same name to your name
-    usermod -d /home/yourname -m yourname       # Add /home/yourname for your renamed user
-    chown -R yourname:yourname /home/yourname   # Take ownership for the renamed user
-    usermod --shell /bin/bash yourname          # Change the shell of the renamed user to bash
+    groupmod -n yourname cbkadal                # Rename its group of the same name to your name
+    usermod -d /home/yourname -m yourname       # Move its homedir to /home/yourname
     ```
     - Create a new account and forget about the original one (or delete it)
      
     ```
     useradd -m yourname                         # Add a new user of your name along with its homedir
+    passwd yourname                             # Give the new user a password
     cp -r /home/cbkadal/* /home/yourname        # Copy all content inside the old account into new one
     chown -R yourname:yourname /home/yourname   # Take ownership for the new user
     usermod --shell /bin/bash yourname          # Change the shell of the new user to bash
