@@ -29,3 +29,11 @@ ZCZC W02 05 L09 Copied myscript.sh
 ZCZC W02 30 L09 -|Asg W02 end|- Updated this log and generated SHA256SUM
 ZCZC W02 120 L23 Installing Arch Linux on my brand new Lenovo Yoga Slim 7 14ARE05
 ZCZC W02 120 L73 Finishing Banjo-Kazooie. I love that sassy red bird
+ZCZC W03 05 L11 -|Asg W03 begin|- OSC10 chap 13 + 14 + 15
+ZCZC W03 10 L12 Demo fun, part 2
+ZCZC W03 10 L13 Trying out last MidTerm problems
+ZCZC W03 05 L14 My bash aliases is fine as it is
+ZCZC W03 30 L15 Adding vbox disk just like I did many times before
+ZCZC W03 10 L16 Updating my links (New Matcha Wallpapers repo) and tips
+ZCZC W03 10 L17 Reviewed my peer links (Nothing different)
+ZCZC W02 20 L18 -|Asg W03 end|- Updated this log and running myscript.sh 

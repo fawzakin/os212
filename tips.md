@@ -20,7 +20,7 @@ Technical help:
 
 # General tips
 
-## How to enjoy Operating System class
+## How to enjoy Operating System class <a name="enjoy-os"></a>
 I find this class to be the most enjoyable class after Introduction to Digital System. However, I've seen someone who calls this class as a sadistic demon or more evil than Lord Dominator. Here's how I become good at this class (and Linux in general) to the point I helped the assistants answering your questions on Discord.
 
 One skill you need to develop, which is pretty much requirement for every single class in the CS major, is to learn how to google your problem. I thought this is a skill that everyone takes for granted but I guess spending a lot of times tinkering my jailbroken iPad taught me this skill nine years ago unknowingly. If you get an error or don't know how to do something, try to search the error code or "how to do X" in google.
@@ -53,7 +53,7 @@ vimtutor is a program, a part of vim itself, that teaches you the basic usage of
     - They are closer to your most used keybindings
     - Some arrow keys designs are flarf-narblin' silly. I bet they are designed to hurt your fingers
 <p align=center>
-    <img src="https://raw.githubusercontent.com/fawzakin/screenpaper/main/Screenshots/arrow-keys.png"> <br>
+    <img src="https://raw.githubusercontent.com/fawzakin/screenpaper/main/Screenshots/arrow-keys.png" width="800"> <br>
     Seriously, who designed this arrow keys?
 </p>
 
@@ -112,10 +112,13 @@ If you are too lazy to install the Debian VM yourself, you ought to import the p
 
 ## Add new disk to your VM <a name="add-disk"></a>
 Sometimes, you may forgot to add the second drive for your LFS partition as it is one of the requirement for your Debian VM. Don't worry, you don't need to waste another time reinstalling Debian. Use that time for playing Genshin Impact instead (or Banjo-Kazooie if you are me). Here's how:
+
+(This should be relevant for week 03 where you need to create the third disk. Just change "sdb" to "sdc", `/mnt/lfs` to `/yourgithubname`, and `mkfs.ext4` to `mkfs.ext2`)  
+
 1. Open your VirtualBox GUI, select your Debian guess, and open "Settings"
 2. Select "Storage", click on "Controller: SATA", click on the hard drive icon with plus sign, click Create, and follow "Create Virtual Hard Disk"
 <p align=center>
-    <img src="https://raw.githubusercontent.com/fawzakin/screenpaper/main/Screenshots/add-disk-gui.png"> <br>
+    <img src="https://raw.githubusercontent.com/fawzakin/screenpaper/main/Screenshots/add-disk-gui.png" width="800"> <br>
     Step 2
 </p>
 
@@ -134,17 +137,17 @@ mkfs.ext4 /dev/sdb
 ```
 9. Now we need to know its UUID. Run `blkid` to see it. (pro-tip: run the following command to save some time later)
 ```
-blkid | awk '/dev/\sdb/{print $2}' >> /etc/fstab
+blkid | awk '/dev\/sdb/{print $2}' >> /etc/fstab
 ```
 <p align=center>
-    <img src="https://raw.githubusercontent.com/fawzakin/screenpaper/main/Screenshots/add-disk-lsblk.png"> <br>
+    <img src="https://raw.githubusercontent.com/fawzakin/screenpaper/main/Screenshots/add-disk-lsblk.png" width="800"> <br>
     Step 7 through 9
 </p>
 
 {:start="10"}
 10. We need to edit `/etc/fstab` so that the added drive can be mounted on startup. Just nano or vim into it and follow everything you see in the last line of the following image. Save your edit and reboot. You should have the added drive mounted on startup
 <p align=center>
-    <img src="https://raw.githubusercontent.com/fawzakin/screenpaper/main/Screenshots/add-disk-fstab.png"> <br>
+    <img src="https://raw.githubusercontent.com/fawzakin/screenpaper/main/Screenshots/add-disk-fstab.png" width="800"> <br>
     If you run the previous command, you should have the target UUID at the last line. Just edit it from there.
 </p>
 

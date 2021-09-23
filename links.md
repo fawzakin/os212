@@ -10,8 +10,9 @@ My main page for things like my personal, non-private information as well as CVs
 [Gitlab Repository](https://gitlab.com/fawzakin)  
 My main repository for programs I use. I prefer using Gitlab to Github.
 
-[Matcha Wallpaper](https://drive.google.com/drive/u/0/folders/1489PbyXlqyZe1U0Dw01DRE8FJkwL3tLi)  
-My custom wallpapers based on vinceliuice's [Matcha GTK Theme](https://github.com/vinceliuice/Matcha-gtk-theme).
+[Matcha Wallpaper](https://github.com/fawzakin/Matcha-wallpaper)  
+My custom wallpapers based on vinceliuice's [Matcha GTK Theme](https://github.com/vinceliuice/Matcha-gtk-theme). Instruction WIP.  
+([old link](https://drive.google.com/drive/u/0/folders/1489PbyXlqyZe1U0Dw01DRE8FJkwL3tLi))  
 
 # My Programs
 These are programs which I either create, fork from other project, or help for development and worth the mention here.
