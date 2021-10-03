@@ -14,6 +14,9 @@ My main repository for programs I use. I prefer using Gitlab to Github.
 My custom wallpapers based on vinceliuice's [Matcha GTK Theme](https://github.com/vinceliuice/Matcha-gtk-theme). Instruction WIP.  
 ([old link](https://drive.google.com/drive/u/0/folders/1489PbyXlqyZe1U0Dw01DRE8FJkwL3tLi))  
 
+[Screenpaper](https://github.com/fawzakin/screenpaper)  
+My screenshots repository if you are wondering where I put all the pictures in my tips page.
+
 # My Programs
 These are programs which I either create, fork from other project, or help for development and worth the mention here.
 
