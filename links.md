@@ -3,6 +3,10 @@ layout: "layout"
 permalink: /LINKS/
 ---
 
+# Great Tutorials
+[Linux Survival Guide](https://www.youtube.com/watch?v=FeDYxBulZ6c)  
+A great tutorial series by Christopher Barnatt about switching to Linux for the first time.
+
 # My Links
 [fawzakin.github.io](https://fawzakin.github.io)  
 My main page for things like my personal, non-private information as well as CVs. (NOT AVAILABLE AT THE MOMENT)

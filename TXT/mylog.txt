@@ -45,4 +45,12 @@ ZCZC W04 30 L15 Compiling TLPI result from WEEK04.tar.bz2.asc
 ZCZC W04 05 L16 Updating links
 ZCZC W04 05 L17 Reviewing my peer links (still the same)
 ZCZC W04 05 L18 Updating this log
-ZCZC W04 10 L19 -|Asg W0r end|- Finishing this week
+ZCZC W04 10 L19 -|Asg W04 end|- Finishing this week
+ZCZC W05 30 L11 -|Asg W05 begin|- OSC10 chap 10
+ZCZC W05 30 L12 Demo stuff. I prefer using htop
+ZCZC W05 30 L13 MidTerm problems
+ZCZC W05 10 L14 The lowest RAM my Debian VM can boot into is 186MB. I set it to 210MB
+ZCZC W05 20 L15 Doing the main course of week 05
+ZCZC W05 10 L16 Updating links with good tutorial video
+ZCZC W05 10 L17 Reviewing my peer links correctly
+ZCZC W05 10 L18 -|Asg W05 end|- Finishing this week
