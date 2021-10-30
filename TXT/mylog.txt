@@ -54,3 +54,10 @@ ZCZC W05 20 L15 Doing the main course of week 05
 ZCZC W05 10 L16 Updating links with good tutorial video
 ZCZC W05 10 L17 Reviewing my peer links correctly
 ZCZC W05 10 L18 -|Asg W05 end|- Finishing this week
+ZCZC W06 30 L11 -|Asg W05 begin|- OSC10 chap 3 and 4
+ZCZC W06 30 L12 Demo stuff.
+ZCZC W06 30 L13 MidTerm problems
+ZCZC W06 60 L14 Fork and Shared Memory thing
+ZCZC W06 10 L15 Updating links with a project from other class
+ZCZC W06 10 L16 Reviewing my peer links
+ZCZC W06 10 L18 -|Asg W06 end|- Finishing this week
