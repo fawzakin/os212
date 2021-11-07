@@ -54,10 +54,19 @@ ZCZC W05 20 L15 Doing the main course of week 05
 ZCZC W05 10 L16 Updating links with good tutorial video
 ZCZC W05 10 L17 Reviewing my peer links correctly
 ZCZC W05 10 L18 -|Asg W05 end|- Finishing this week
-ZCZC W06 30 L11 -|Asg W05 begin|- OSC10 chap 3 and 4
+ZCZC W06 30 L11 -|Asg W06 begin|- OSC10 chap 3 and 4
 ZCZC W06 30 L12 Demo stuff.
 ZCZC W06 30 L13 MidTerm problems
 ZCZC W06 60 L14 Fork and Shared Memory thing
 ZCZC W06 10 L15 Updating links with a project from other class
 ZCZC W06 10 L16 Reviewing my peer links
 ZCZC W06 10 L18 -|Asg W06 end|- Finishing this week
+ZCZC W07 30 L11 -|Asg W07 begin|- OSC10 chap 6, 7, and 8
+ZCZC W07 30 L12 Demo Stuff and I honestly don't know what they are doing
+ZCZC W07 30 L13 Midterm Problems. Same thing with the previous
+ZCZC W07 30 L14 ESSS ESSS HEEEEEIJJJJ
+ZCZC W07 10 L15 Updating links with new Linux tutorial video
+ZCZC W07 10 L17 Reviewing my peer links
+ZCZC W07 05 L18 -|Asg W07 end|- Updating log and Finishing this week
+ZCZC W07 05 L99 It's hard to work on anything with depression taking a vacant inside my head for a while
+ZCZC W07 120 L73 Slippery white monkey thing

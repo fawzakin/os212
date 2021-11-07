@@ -4,7 +4,9 @@ permalink: /LINKS/
 ---
 
 # Great Tutorials
-[Linux Survival Guide](https://www.youtube.com/watch?v=FeDYxBulZ6c)  
+Linux Survival Guide  
+[Part 1](https://www.youtube.com/watch?v=FeDYxBulZ6c)  
+[Part 2](https://www.youtube.com/watch?v=ifUJt1tqP_Q)  
 A great tutorial series by Christopher Barnatt about switching to Linux for the first time.
 
 # My Links
